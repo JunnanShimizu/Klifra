@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13335B652CE4493E00FB98FA /* UserTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13335B642CE4493E00FB98FA /* UserTabViewController.swift */; };
+		13335B672CE449F300FB98FA /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13335B662CE449F300FB98FA /* UserView.swift */; };
+		13335B692CE550A100FB98FA /* SearchTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13335B682CE550A100FB98FA /* SearchTabViewController.swift */; };
+		13335B6B2CE550CD00FB98FA /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13335B6A2CE550CD00FB98FA /* SearchView.swift */; };
+		13335BC22CF4E75F00FB98FA /* CragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13335BC12CF4E75F00FB98FA /* CragView.swift */; };
+		13335BC42CF4E88A00FB98FA /* CragService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13335BC32CF4E88A00FB98FA /* CragService.swift */; };
+		139091062CE010C400337A44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139091052CE010C400337A44 /* AppDelegate.swift */; };
+		139091082CE010C400337A44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139091072CE010C400337A44 /* SceneDelegate.swift */; };
+		1390910A2CE010C400337A44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139091092CE010C400337A44 /* ViewController.swift */; };
+		1390910D2CE010C400337A44 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1390910C2CE010C400337A44 /* Base */; };
+		1390910F2CE010C500337A44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1390910E2CE010C500337A44 /* Assets.xcassets */; };
+		139091122CE010C500337A44 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 139091112CE010C500337A44 /* Base */; };
+		1390911A2CE1120C00337A44 /* MapTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139091192CE1120C00337A44 /* MapTabViewController.swift */; };
+		1390911C2CE112D300337A44 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1390911B2CE112D300337A44 /* ContentView.swift */; };
+		13DAD93C2CE3ECE50034291A /* HomeTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DAD93B2CE3ECE40034291A /* HomeTabViewController.swift */; };
+		13DAD93E2CE3ED360034291A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DAD93D2CE3ED360034291A /* HomeView.swift */; };
+		FB95E1E42D03756C00A945EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB95E1E22D03756C00A945EE /* Main.storyboard */; };
+		FB95E1E52D03756C00A945EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB95E1E02D03756C00A945EE /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13335B642CE4493E00FB98FA /* UserTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTabViewController.swift; sourceTree = "<group>"; };
+		13335B662CE449F300FB98FA /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		13335B682CE550A100FB98FA /* SearchTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTabViewController.swift; sourceTree = "<group>"; };
+		13335B6A2CE550CD00FB98FA /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		13335BC12CF4E75F00FB98FA /* CragView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CragView.swift; sourceTree = "<group>"; };
+		13335BC32CF4E88A00FB98FA /* CragService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CragService.swift; sourceTree = "<group>"; };
+		139091022CE010C400337A44 /* Klifra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Klifra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		139091052CE010C400337A44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		139091072CE010C400337A44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		139091092CE010C400337A44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1390910C2CE010C400337A44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1390910E2CE010C500337A44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		139091112CE010C500337A44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		139091132CE010C500337A44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		139091192CE1120C00337A44 /* MapTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTabViewController.swift; sourceTree = "<group>"; };
+		1390911B2CE112D300337A44 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		13DAD93B2CE3ECE40034291A /* HomeTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabViewController.swift; sourceTree = "<group>"; };
+		13DAD93D2CE3ED360034291A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FB95E1DF2D03756C00A945EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB95E1E12D03756C00A945EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		139090FF2CE010C400337A44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		139090F92CE010C400337A44 = {
+			isa = PBXGroup;
+			children = (
+				139091042CE010C400337A44 /* Klifra */,
+				139091032CE010C400337A44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		139091032CE010C400337A44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				139091022CE010C400337A44 /* Klifra.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		139091042CE010C400337A44 /* Klifra */ = {
+			isa = PBXGroup;
+			children = (
+				139091052CE010C400337A44 /* AppDelegate.swift */,
+				139091072CE010C400337A44 /* SceneDelegate.swift */,
+				139091092CE010C400337A44 /* ViewController.swift */,
+				1390910B2CE010C400337A44 /* Main.storyboard */,
+				139091192CE1120C00337A44 /* MapTabViewController.swift */,
+				13DAD93B2CE3ECE40034291A /* HomeTabViewController.swift */,
+				13335B642CE4493E00FB98FA /* UserTabViewController.swift */,
+				13335B682CE550A100FB98FA /* SearchTabViewController.swift */,
+				13335B6A2CE550CD00FB98FA /* SearchView.swift */,
+				13335B662CE449F300FB98FA /* UserView.swift */,
+				13DAD93D2CE3ED360034291A /* HomeView.swift */,
+				13335BC32CF4E88A00FB98FA /* CragService.swift */,
+				13335BC12CF4E75F00FB98FA /* CragView.swift */,
+				1390911B2CE112D300337A44 /* ContentView.swift */,
+				1390910E2CE010C500337A44 /* Assets.xcassets */,
+				139091102CE010C500337A44 /* LaunchScreen.storyboard */,
+				139091132CE010C500337A44 /* Info.plist */,
+				FB95E1E32D03756C00A945EE /* Base.lproj */,
+			);
+			path = Klifra;
+			sourceTree = "<group>";
+		};
+		FB95E1E32D03756C00A945EE /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				FB95E1E02D03756C00A945EE /* LaunchScreen.storyboard */,
+				FB95E1E22D03756C00A945EE /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		139091012CE010C400337A44 /* Klifra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 139091162CE010C500337A44 /* Build configuration list for PBXNativeTarget "Klifra" */;
+			buildPhases = (
+				139090FE2CE010C400337A44 /* Sources */,
+				139090FF2CE010C400337A44 /* Frameworks */,
+				139091002CE010C400337A44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Klifra;
+			productName = TabsSwift;
+			productReference = 139091022CE010C400337A44 /* Klifra.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		139090FA2CE010C400337A44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					139091012CE010C400337A44 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 139090FD2CE010C400337A44 /* Build configuration list for PBXProject "Klifra" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 139090F92CE010C400337A44;
+			productRefGroup = 139091032CE010C400337A44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				139091012CE010C400337A44 /* Klifra */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		139091002CE010C400337A44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB95E1E42D03756C00A945EE /* Main.storyboard in Resources */,
+				FB95E1E52D03756C00A945EE /* LaunchScreen.storyboard in Resources */,
+				1390910F2CE010C500337A44 /* Assets.xcassets in Resources */,
+				139091122CE010C500337A44 /* Base in Resources */,
+				1390910D2CE010C400337A44 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		139090FE2CE010C400337A44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13335BC42CF4E88A00FB98FA /* CragService.swift in Sources */,
+				1390910A2CE010C400337A44 /* ViewController.swift in Sources */,
+				13DAD93E2CE3ED360034291A /* HomeView.swift in Sources */,
+				1390911C2CE112D300337A44 /* ContentView.swift in Sources */,
+				13335B652CE4493E00FB98FA /* UserTabViewController.swift in Sources */,
+				13335B692CE550A100FB98FA /* SearchTabViewController.swift in Sources */,
+				1390911A2CE1120C00337A44 /* MapTabViewController.swift in Sources */,
+				139091062CE010C400337A44 /* AppDelegate.swift in Sources */,
+				139091082CE010C400337A44 /* SceneDelegate.swift in Sources */,
+				13335B672CE449F300FB98FA /* UserView.swift in Sources */,
+				13335BC22CF4E75F00FB98FA /* CragView.swift in Sources */,
+				13DAD93C2CE3ECE50034291A /* HomeTabViewController.swift in Sources */,
+				13335B6B2CE550CD00FB98FA /* SearchView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1390910B2CE010C400337A44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1390910C2CE010C400337A44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		139091102CE010C500337A44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				139091112CE010C500337A44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FB95E1E02D03756C00A945EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB95E1DF2D03756C00A945EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FB95E1E22D03756C00A945EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB95E1E12D03756C00A945EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		139091142CE010C500337A44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		139091152CE010C500337A44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		139091172CE010C500337A44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PM782GFP43;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Klifra/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				"INFOPLIST_KEY_UILaunchStoryboardName[sdk=*]" = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewquinn.Klifra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		139091182CE010C500337A44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PM782GFP43;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Klifra/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewquinn.Klifra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		139090FD2CE010C400337A44 /* Build configuration list for PBXProject "Klifra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				139091142CE010C500337A44 /* Debug */,
+				139091152CE010C500337A44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		139091162CE010C500337A44 /* Build configuration list for PBXNativeTarget "Klifra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				139091172CE010C500337A44 /* Debug */,
+				139091182CE010C500337A44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 139090FA2CE010C400337A44 /* Project object */;
+}
